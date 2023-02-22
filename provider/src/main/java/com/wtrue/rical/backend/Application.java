@@ -28,9 +28,9 @@ public class Application {
         // 关闭spring的shutdown hook，后续手动触发
         application.setRegisterShutdownHook(false);
         final ConfigurableApplicationContext context = application.run(args);
-        Runtime.getRuntime().addShutdownHook(new Thread("T_SHUTDOWN_HOOK") {
+        Runtime.getRuntime().addShutdownHook(new Thread("DUBBO_SHUTDOWN_HOOK_THREAD") {
             public void run() {
-                log.info("”====================shutdown App====================“。");
+                log.info("==[Application#main] - Application shutdown.");
                 //....这里可以做其他优雅退出处理，例如回收本地线程池、关闭定时调度器等的操作
 
                 // 每次等1000ms，最多等5次；优雅退出时间是动态的（可能1秒就能优雅退出完毕）
@@ -42,7 +42,7 @@ public class Application {
             }
         });
 
-        log.info("==[BackendApp#main] - Application started.");
+        log.info("==[Application#main] - Application started.");
     }
 
     /**
@@ -55,7 +55,7 @@ public class Application {
             // 如果dubbo的server没有关闭完成，会睡眠等待，最多等待三次
             Collection existingDubboServers = DubboProtocol.getDubboProtocol().getServers();
             Collection existingDubboExporters  = DubboProtocol.getDubboProtocol().getExporters();
-            log.info("existing dubbo servers : {}, existing dubbo expoerters {} ,  sleepWaitTimes : {}", existingDubboServers, existingDubboExporters, sleepWaitTimes);
+            log.info("==[Application#waitDubboShutdown] existing dubbo servers : {}, existing dubbo expoerters {} ,  sleepWaitTimes : {}", existingDubboServers, existingDubboExporters, sleepWaitTimes);
             if (!existingDubboServers.isEmpty() || !existingDubboExporters.isEmpty()) {
                 try {
                     Thread.sleep(sleepMillis);
@@ -70,12 +70,12 @@ public class Application {
         // 优雅退出失败，打印日志
         Collection existingDubboServers = DubboProtocol.getDubboProtocol().getServers();
         if (!existingDubboServers.isEmpty()) {
-            log.warn("DUBBO服务Server依然存在，不再等待其销毁，可能会导致优雅退出失败 {}",existingDubboServers);
+            log.warn("~~[Application#waitDubboShutdown] DUBBO服务Server依然存在，不再等待其销毁，可能会导致优雅退出失败 {}",existingDubboServers);
         }
 
         Collection existingDubboExporters  = DubboProtocol.getDubboProtocol().getExporters();
         if (!existingDubboExporters.isEmpty()) {
-            log.warn("DUBBO服务Exporters依然存在，不再等待其销毁，可能会导致优雅退出失败 {}",existingDubboExporters);
+            log.warn("~~[Application#waitDubboShutdown] DUBBO服务Exporters依然存在，不再等待其销毁，可能会导致优雅退出失败 {}",existingDubboExporters);
         }
 
         log.info("==[BackendApp#waitDubboShutdown] - Application stopped.");
