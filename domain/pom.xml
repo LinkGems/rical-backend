@@ -20,7 +20,12 @@
 
         <dependency>
             <groupId>com.wtrue</groupId>
-            <artifactId>rical.backend.common</artifactId>
+            <artifactId>rical.backend.export</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.wtrue</groupId>
+            <artifactId>rical.common.eve</artifactId>
         </dependency>
 
     </dependencies>
