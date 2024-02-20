@@ -13,15 +13,16 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
+@Deprecated
 public class XxlJobConfig {
 
-    @Value("${xxl.job.admin.addresses}")
+    @Value("${job.admin.addresses}")
     private String adminAddresses;
-    @Value("${xxl.job.accessToken}")
+    @Value("${job.accessToken}")
     private String accessToken;
-    @Value("${xxl.job.executor.appname}")
+    @Value("${job.executor.appname}")
     private String appname;
-    @Value("${xxl.job.executor.port}")
+    @Value("${job.executor.port}")
     private String port;
 
     @Bean
