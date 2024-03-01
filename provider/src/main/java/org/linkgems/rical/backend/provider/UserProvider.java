@@ -1,4 +1,4 @@
-package org.linkgems.rical.backend.provider.provider;
+package org.linkgems.rical.backend.provider;
 
 import org.linkgems.rical.backend.biz.IUserBiz;
 import org.linkgems.rical.backend.domain.adapter.UserAdapter;
@@ -15,7 +15,7 @@ import javax.annotation.Resource;
  * @author: meidanlong
  * @date: 2021/7/18 4:51 PM
  */
-@Service(version = "${provider.wtrue.rical.backend.ITestProvider}")
+@Service(version = "${provider.linkgems.rical.backend.ITestProvider}")
 public class UserProvider implements IUserProvider {
 
     @Resource

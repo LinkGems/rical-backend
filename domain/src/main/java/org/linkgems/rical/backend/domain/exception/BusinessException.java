@@ -2,8 +2,8 @@ package org.linkgems.rical.backend.domain.exception;
 
 
 import org.linkgems.rical.backend.domain.enums.BusinessErrorEnum;
-import com.wtrue.rical.common.adam.domain.BaseException;
-import com.wtrue.rical.common.adam.enums.ErrorEnum;
+import org.linkgems.rical.common.adam.domain.BaseException;
+import org.linkgems.rical.common.adam.enums.ErrorEnum;
 
 /**
  * @description:

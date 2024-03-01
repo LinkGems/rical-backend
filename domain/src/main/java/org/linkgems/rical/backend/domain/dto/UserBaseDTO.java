@@ -1,8 +1,8 @@
 package org.linkgems.rical.backend.domain.dto;
 
-import com.wtrue.rical.common.adam.domain.BaseObject;
 import lombok.Getter;
 import lombok.Setter;
+import org.linkgems.rical.common.adam.domain.BaseObject;
 
 
 /**

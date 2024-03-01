@@ -1,4 +1,4 @@
-package com.wtrue.rical.backend.task.job;
+package org.linkgems.rical.backend.task.job;
 
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;

@@ -1,4 +1,4 @@
-package com.wtrue.rical.backend.reference;
+package org.linkgems.rical.backend.reference;
 
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.context.annotation.Configuration;

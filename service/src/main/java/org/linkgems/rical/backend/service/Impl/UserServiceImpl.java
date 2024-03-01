@@ -1,10 +1,10 @@
-package com.wtrue.rical.backend.service.Impl;
+package org.linkgems.rical.backend.service.Impl;
 
 import org.linkgems.rical.backend.dao.mapper.user.UserBaseMapper;
 import org.linkgems.rical.backend.domain.adapter.UserAdapter;
 import org.linkgems.rical.backend.domain.dto.UserBaseDTO;
 import org.linkgems.rical.backend.domain.user.UserBase;
-import com.wtrue.rical.backend.service.IUserService;
+import org.linkgems.rical.backend.service.IUserService;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
 

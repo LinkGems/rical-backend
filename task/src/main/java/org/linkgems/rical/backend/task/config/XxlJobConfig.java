@@ -1,4 +1,4 @@
-package com.wtrue.rical.backend.task.config;
+package org.linkgems.rical.backend.task.config;
 
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import lombok.extern.slf4j.Slf4j;

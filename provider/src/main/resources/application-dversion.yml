@@ -1,5 +1,5 @@
 provider:
-  wtrue:
+  LinkGems:
     rical:
       backend:
         ITestProvider: latest

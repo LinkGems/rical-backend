@@ -1,4 +1,4 @@
-package org.linkgems.rical.backend.provider;
+package org.linkgems.rical.backend;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
@@ -15,7 +15,7 @@ import java.util.Collection;
  * @author: meidanlong
  * @date: 2021/7/18 4:44 PM
  */
-@MapperScan("com.wtrue.rical.backend.dao.mapper")
+@MapperScan("org.linkgems.rical.backend.dao.mapper")
 @SpringBootApplication
 @EnableDubbo
 @Slf4j

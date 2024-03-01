@@ -1,4 +1,4 @@
-package com.wtrue.rical.backend.service;
+package org.linkgems.rical.backend.service;
 
 import org.linkgems.rical.backend.domain.dto.UserBaseDTO;
 

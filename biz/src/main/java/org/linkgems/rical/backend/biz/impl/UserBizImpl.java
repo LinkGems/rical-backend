@@ -2,7 +2,7 @@ package org.linkgems.rical.backend.biz.impl;
 
 import org.linkgems.rical.backend.biz.IUserBiz;
 import org.linkgems.rical.backend.domain.dto.UserBaseDTO;
-import com.wtrue.rical.backend.service.IUserService;
+import org.linkgems.rical.backend.service.IUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
