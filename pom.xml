@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wtrue</groupId>
-    <artifactId>rical.backend</artifactId>
+    <groupId>org.LinkGems.rical</groupId>
+    <artifactId>backend</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>provider</module>
@@ -25,7 +25,7 @@
         <java.version>1.8</java.version>
         <maven.version>3.6.0</maven.version>
         <!--服务依赖-->
-        <rical-common-eve.version>1.0.3-SNAPSHOT</rical-common-eve.version>
+        <rical-common-eve.version>1.0.4-SNAPSHOT</rical-common-eve.version>
         <rical.backend.export.version>1.0.0-SNAPSHOT</rical.backend.export.version>
     </properties>
 
@@ -34,52 +34,52 @@
 
             <!--common-eve-->
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.common.eve</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>common.eve</artifactId>
                 <version>${rical-common-eve.version}</version>
             </dependency>
 
             <!--backend-export-->
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.export</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>backend.export</artifactId>
                 <version>${rical.backend.export.version}</version>
             </dependency>
 
             <!--backend-->
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.api</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.biz</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>biz</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.service</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.domain</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.dao</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>dao</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.common</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wtrue</groupId>
-                <artifactId>rical.backend.task</artifactId>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>task</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
