@@ -22,7 +22,7 @@
         </jdbcConnection>
 
         <!--实体-->
-        <javaModelGenerator targetPackage="org.linkgems.rical.usercenter.domain.po"
+        <javaModelGenerator targetPackage="org.linkgems.rical.backend.domain.po"
                             targetProject="../domain/src/main/java"/>
 
         <!--mapper.xml-->
@@ -30,7 +30,7 @@
                          targetProject="../dao/src/main/resources"/>
 
         <!--mapper接口-->
-        <javaClientGenerator targetPackage="org.linkgems.rical.usercenter.dao.mapper"
+        <javaClientGenerator targetPackage="org.linkgems.rical.backend.dao.mapper"
                              targetProject="../dao/src/main/java"
                              type="XMLMAPPER"/>
 

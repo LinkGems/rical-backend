@@ -9,18 +9,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>domain</artifactId>
+    <artifactId>dependency</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.LinkGems.rical</groupId>
-            <artifactId>dependency</artifactId>
+            <artifactId>backend.export</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.LinkGems.rical</groupId>
+            <artifactId>common.eve</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

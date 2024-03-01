@@ -1,4 +1,4 @@
-package org.linkgems.rical.backend.domain.user;
+package org.linkgems.rical.backend.domain.po.user;
 
 import java.util.Date;
 import javax.persistence.*;

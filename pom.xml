@@ -17,6 +17,7 @@
         <module>common</module>
         <module>task</module>
         <module>api</module>
+        <module>dependency</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -80,6 +81,11 @@
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
                 <artifactId>task</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>dependency</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

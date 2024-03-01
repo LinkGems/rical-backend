@@ -1,7 +1,7 @@
 package org.linkgems.rical.backend.domain.adapter;
 
 import org.linkgems.rical.backend.domain.dto.UserBaseDTO;
-import org.linkgems.rical.backend.domain.user.UserBase;
+import org.linkgems.rical.backend.domain.po.user.UserBase;
 import org.linkgems.rical.backend.export.UserBaseModel;
 
 /**
