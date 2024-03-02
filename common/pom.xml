@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>common</artifactId>
+    <artifactId>backend.common</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -20,7 +20,7 @@
 
         <dependency>
             <groupId>org.LinkGems.rical</groupId>
-            <artifactId>domain</artifactId>
+            <artifactId>backend.domain</artifactId>
         </dependency>
     </dependencies>
 

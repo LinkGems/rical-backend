@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dao</artifactId>
+    <artifactId>backend.dao</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -21,7 +21,7 @@
 
         <dependency>
             <groupId>org.LinkGems.rical</groupId>
-            <artifactId>domain</artifactId>
+            <artifactId>backend.domain</artifactId>
         </dependency>
 
     </dependencies>

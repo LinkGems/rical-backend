@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>provider</artifactId>
+    <artifactId>backend.provider</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -26,11 +26,11 @@
         <!--rical-->
         <dependency>
             <groupId>org.LinkGems.rical</groupId>
-            <artifactId>api</artifactId>
+            <artifactId>backend.api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.LinkGems.rical</groupId>
-            <artifactId>task</artifactId>
+            <artifactId>backend.task</artifactId>
         </dependency>
     </dependencies>
 

@@ -50,42 +50,42 @@
             <!--backend-->
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>api</artifactId>
+                <artifactId>backend.api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>biz</artifactId>
+                <artifactId>backend.biz</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>service</artifactId>
+                <artifactId>backend.service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>domain</artifactId>
+                <artifactId>backend.domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>dao</artifactId>
+                <artifactId>backend.dao</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>common</artifactId>
+                <artifactId>backend.common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>task</artifactId>
+                <artifactId>backend.task</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
-                <artifactId>dependency</artifactId>
+                <artifactId>backend.dependency</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
