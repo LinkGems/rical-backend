@@ -29,6 +29,12 @@
             <artifactId>common.eve</artifactId>
         </dependency>
 
+        <!--data.mysql-->
+        <dependency>
+            <groupId>org.LinkGems.rical</groupId>
+            <artifactId>data.mysql</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

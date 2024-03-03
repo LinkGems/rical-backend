@@ -26,7 +26,8 @@
         <java.version>1.8</java.version>
         <maven.version>3.6.0</maven.version>
         <!--服务依赖-->
-        <rical-common-eve.version>1.0.4-SNAPSHOT</rical-common-eve.version>
+        <rical.common.eve.version>1.0.4-SNAPSHOT</rical.common.eve.version>
+        <rical.data.mysql.version>1.0.0-SNAPSHOT</rical.data.mysql.version>
         <rical.backend.export.version>1.0.0-SNAPSHOT</rical.backend.export.version>
     </properties>
 
@@ -37,7 +38,14 @@
             <dependency>
                 <groupId>org.LinkGems.rical</groupId>
                 <artifactId>common.eve</artifactId>
-                <version>${rical-common-eve.version}</version>
+                <version>${rical.common.eve.version}</version>
+            </dependency>
+
+            <!--data.mysql-->
+            <dependency>
+                <groupId>org.LinkGems.rical</groupId>
+                <artifactId>data.mysql</artifactId>
+                <version>${rical.data.mysql.version}</version>
             </dependency>
 
             <!--backend-export-->
