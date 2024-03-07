@@ -1,5 +1,5 @@
 provider:
-  LinkGems:
+  linkgems:
     rical:
       backend:
         ITestProvider: latest

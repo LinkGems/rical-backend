@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.LinkGems.rical</groupId>
+    <groupId>org.linkgems.rical</groupId>
     <artifactId>backend</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
@@ -36,63 +36,63 @@
 
             <!--common-eve-->
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>common.eve</artifactId>
                 <version>${rical.common.eve.version}</version>
             </dependency>
 
             <!--data.mysql-->
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>data.mysql</artifactId>
                 <version>${rical.data.mysql.version}</version>
             </dependency>
 
             <!--backend-export-->
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.export</artifactId>
                 <version>${rical.backend.export.version}</version>
             </dependency>
 
             <!--backend-->
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.biz</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.dao</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.task</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.LinkGems.rical</groupId>
+                <groupId>org.linkgems.rical</groupId>
                 <artifactId>backend.dependency</artifactId>
                 <version>${project.version}</version>
             </dependency>
